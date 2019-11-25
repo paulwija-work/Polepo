@@ -1,36 +1,7 @@
-[[projects]]
-  digest = "1:ed3d145549ef58df9c5469530f7aa0b0dc8201fd9cd3b1d60a09a8c6e1d7c504"
+[prune]
+  go-tests = true
+  unused-packages = true
+
+[[constraint]]
   name = "github.com/cactus/go-camo"
-  packages = [
-    ".",
-    "camo",
-    "camo/encoding",
-    "router",
-    "stats",
-  ]
-  pruneopts = "UT"
-  revision = "01c440c72af97e70d99f7fcaf062c57481d77c54"
-  version = "v1.0.4"
-
-[[projects]]
-  branch = "master"
-  digest = "1:89bd2b283ab7adafc9cd11f8ab37f6ad895eb13caf930da7694cc83ed88b39ab"
-  name = "github.com/cactus/gologit"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "e808dfaee730c6231282413d8961d56a88def564"
-
-[[projects]]
-  digest = "1:a2cff208d4759f6ba1b1cd228587b0a1869f95f22542ec9cd17fff64430113c7"
-  name = "github.com/jessevdk/go-flags"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "c6ca198ec95c841fdb89fc0de7496fed11ab854e"
-  version = "v1.4.0"
-
-[solve-meta]
-  analyzer-name = "dep"
-  analyzer-version = 1
-  input-imports = ["github.com/cactus/go-camo"]
-  solver-name = "gps-cdcl"
-  solver-version = 1
+  version = "1.0.4"
