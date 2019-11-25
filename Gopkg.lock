@@ -1,7 +1,0 @@
-[prune]
-  go-tests = true
-  unused-packages = true
-
-[[constraint]]
-  name = "github.com/cactus/go-camo"
-  version = "1.0.4"
