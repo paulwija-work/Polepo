@@ -1,4 +1,4 @@
-module github.com/my/project
+module github.com/paulwija-work/Polepo
 
 require github.com/cactus/go-camo v1.0.7
 
