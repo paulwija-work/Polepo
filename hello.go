@@ -1,6 +1,6 @@
 package hello
-import  "github.com/cactus/go-camo"
 
+import "github.com/goharbor/harbor"
 
 func Hello() string {
     return "Hello, world."
